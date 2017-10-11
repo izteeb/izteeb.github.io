@@ -2,17 +2,16 @@
 <html>
 <head>
 <title>Portable Medicine Organizer</title>
-<link rel="icon" href="icon5.png"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="icon" href="images/icon5.png"></link>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <style>
-
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
   position: relative;
   opacity: 0.65;
@@ -20,27 +19,23 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
-  background-image: url("slider.jpg");
+  background-image: url("images/slider.jpg");
   min-height: 100%;
 }
-
 .bgimg-2 {
-  background-image: url("back3.jpg");
+  background-image: url("images/back3.jpg");
   min-height: 80%;
 }
-
 .bgimg-3 {
-  background-image: url("back2.png");
+  background-image: url("images/back2.png");
   min-height: 100%;
 }
 .bgimg-4 {
-  background-image: url("back2.png");
-  min-height: 10%;
+  background-image: url("images/back2.png");
+  min-height: 5%;
 }
-
 .caption {
   position: absolute;
   left: 0;
@@ -49,33 +44,6 @@ body, html {
   text-align: center;
   color: #000;
 }
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
-
-}
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -84,7 +52,6 @@ body, html {
   letter-spacing: 10px;
   
 }
-
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -94,11 +61,10 @@ h3 {
 nav{
 overflow: auto;
 }
-
 .nav-bar header {
     background:transparent;
 }
-
+<<<<<<< HEAD
 .navbar.transparent.navbar-inverse .navbar-inner {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -108,7 +74,6 @@ overflow: auto;
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
-
 ul.nav.navbar-nav.navbar-right li.c2 a {
   color: white;
   font-weight: 600;
@@ -121,22 +86,24 @@ font-family: arial;
 text-align: center; 
 }
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
+=======
+@media screen and (max-width: 1024px) {
+	.panel-row-style {
+		background-attachment: fixed !important;
+		background-position: center top !important;
+		-webkit-background-size: cover !important;
+		-moz-background-size: cover !important;
+		background-size: cover !important;
+	}
+>>>>>>> a2e2c998b7c39e37c5a5c79f4a1e81aa12d94a21
 }
-
 </style>
 </head>
 <body>
-
 	
 	
 	
 	<div class="bgimg-1">
-	<div class="parallax__layer--back">
-	
 	<nav class= "navbar">
 	<div class="container">
 		<div class="navbar-inner">
@@ -146,7 +113,7 @@ text-align: center;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
 		</button>
-		<a  href="index.html" class="navbar-brand"><img alt="PMO" src="PMO.png" width="190" height="35"></a>
+		<a  href="index.html" class="navbar-brand"><img alt="PMO" src="images/PMO.png" width="190" height="35"></a>
 		
 		</div>
 		 
@@ -162,29 +129,21 @@ text-align: center;
 		</ul> 
 		
 			
-				</div>
-			</div>
-		</nav>
-		
+		</div>
 		</div>
 		</div>
 		
-		<div class="parallax">
-	<div class="parallax__group">
-	
+	</nav>
 	<div class="caption">
 	<span class="border">Portable Medicine Organizer</span>
 	</div>
-
-
+</div>
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
   <h3 style="text-align:center;">Connect to IP:</h3>
   <p>With portable medicine organizer, you can view your medication</p>
   </div>
 <div class="bgimg-2">
-
 </div>
-
 <div class="bgimg-3">
 </div>
 <div style="color: #777;background-color:#E8E8E8;text-align:center;padding:50px 80px;text-align: center;">
@@ -193,19 +152,13 @@ text-align: center;
   </div>
   <div class="bgimg-4">
   </div>
-  
-  
-	</div>	
 	
-	</div>
+	
 		
-
 <script
   src="http://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
 </body>
 </html>
