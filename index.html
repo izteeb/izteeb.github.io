@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Portable Medicine Organizer</title>
+<link rel="icon" href="icon5.png"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <style>
 
 body, html {
@@ -10,7 +13,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -20,18 +23,22 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("slider_img_04.png");
+  background-image: url("slider.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("sunset.jpg");
-  min-height: 100%;
+  background-image: url("back3.jpg");
+  min-height: 80%;
 }
 
 .bgimg-3 {
-  background-image: url("surf.jpg");
+  background-image: url("back2.png");
   min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("back2.png");
+  min-height: 10%;
 }
 
 .caption {
@@ -58,7 +65,35 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+nav{
+overflow: auto;
+}
 
+.nav-bar header {
+    background:transparent;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+ul.nav.navbar-nav.navbar-right li.c2 a {
+  color: white;
+  font-weight: 600;
+  font-family: arial;
+}
+img { 
+color: white;
+font-weight: 600;
+font-family: arial; 
+text-align: center; 
+}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -69,7 +104,41 @@ h3 {
 </style>
 </head>
 <body>
-<div class="bgimg-1">
+
+	
+	
+	
+	<div class="bgimg-1">
+	<nav class= "navbar">
+	<div class="container">
+		<div class="navbar-inner">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+		</button>
+		<a  href="index.html" class="navbar-brand"><img alt="PMO" src="PMO.png" width="190" height="35"></a>
+		
+		</div>
+		 
+		
+		
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+	
+		<ul class="nav navbar-nav navbar-right">
+		
+			<li class="c2"><a href="https://www.facebook.com/tabangay.stevens">Contact</a></li>
+			<li class="c2"><a href="about.html">About</a></li>
+			
+		</ul> 
+		
+			
+		</div>
+		</div>
+		</div>
+		
+	</nav>
 	<div class="caption">
 	<span class="border">Portable Medicine Organizer</span>
 	</div>
@@ -78,7 +147,28 @@ h3 {
   <h3 style="text-align:center;">Connect to IP:</h3>
   <p>With portable medicine organizer, you can view your medication</p>
   </div>
-<div class="bgimg-2"></div>
-<div class="bgimg-3"></div>
+<div class="bgimg-2">
+
+</div>
+
+<div class="bgimg-3">
+</div>
+<div style="color: #777;background-color:#E8E8E8;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center;">About Us</h3>
+  <p>Stevens Tabangay</p>
+  </div>
+  <div class="bgimg-4">
+  </div>
+	
+	
+		
+
+<script
+  src="http://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
