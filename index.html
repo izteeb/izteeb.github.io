@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Portable Medicine Organizer</title>
-<link rel="icon" href="icon5.png"></link>
+<link rel="icon" href="images/icon5.png"></link>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <style>
 
@@ -23,21 +23,21 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("slider.jpg");
+  background-image: url("images/back1.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("back3.jpg");
+  background-image: url("images/back3.jpg");
   min-height: 80%;
 }
 
 .bgimg-3 {
-  background-image: url("back2.png");
+  background-image: url("images/back2.png");
   min-height: 100%;
 }
 .bgimg-4 {
-  background-image: url("back2.png");
+  background-image: url("images/back2.png");
   min-height: 10%;
 }
 
@@ -73,7 +73,7 @@ overflow: auto;
     background:transparent;
 }
 
-<<<<<<< HEAD
+
 .navbar.transparent.navbar-inverse .navbar-inner {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -95,12 +95,43 @@ font-weight: 600;
 font-family: arial; 
 text-align: center; 
 }
+
+#container {
+    width:100%;
+    text-align:center;
+	margin-top: 50px;
+	
+}
+
+#left {
+    float:left;
+    width:300px;
+	background-color: #E0E0E0;	
+	
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:300px;
+	background-color: #E0E0E0;		
+}
+
+#right {
+    float:right;
+    width:300px;
+	background-color: #E0E0E0;	
+	
+}
+
+
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-=======
+
 @media screen and (max-width: 1024px) {
 	.panel-row-style {
 		background-attachment: fixed !important;
@@ -109,7 +140,7 @@ text-align: center;
 		-moz-background-size: cover !important;
 		background-size: cover !important;
 	}
->>>>>>> a2e2c998b7c39e37c5a5c79f4a1e81aa12d94a21
+
 }
 
 </style>
@@ -129,7 +160,7 @@ text-align: center;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
 		</button>
-		<a  href="index.html" class="navbar-brand"><img alt="PMO" src="PMO.png" width="190" height="35"></a>
+		<a  href="index.html" class="navbar-brand"><img alt="PMO" src="images/PMO.png" width="190" height="35"></a>
 		
 		</div>
 		 
@@ -138,9 +169,7 @@ text-align: center;
 		<div class="collapse navbar-collapse" id="bs-nav-demo">
 	
 		<ul class="nav navbar-nav navbar-right">
-		
-			<li class="c2"><a href="https://www.facebook.com/tabangay.stevens">Contact</a></li>
-			<li class="c2"><a href="about.html">About</a></li>
+		<!--add li-->
 			
 		</ul> 
 		
@@ -156,18 +185,54 @@ text-align: center;
 </div>
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
   <h3 style="text-align:center;">Connect to IP:</h3>
-  <p>With portable medicine organizer, you can view your medication</p>
+  <p>Before </p>
   </div>
 <div class="bgimg-2">
 
 </div>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.amanotes.reborn&hl=en/">
+   <button style="background-color:transparent; border-color:transparent;	"> 
+  <img src="images/google_play.png" height="70"/>
+</button>
+</a>
+Download Android Application</h3>
+  <div id="container">
+ 
+  
+</div>
+
+  </div>
 
 <div class="bgimg-3">
+
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center;">Register and Login</h3>
+  <p>Before </p>
+  </div>
+<div class="bgimg-2">
+
+</div>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+  <h3 style="text-align:center;">Add Medication</h3>
+  <p>Before </p>
+  </div>
+<div class="bgimg-3">
+
 </div>
 <div style="color: #777;background-color:#E8E8E8;text-align:center;padding:50px 80px;text-align: center;">
   <h3 style="text-align:center;">About Us</h3>
-  <p>Stevens Tabangay</p>
-  </div>
+  <div id="container">
+ <div id="left"><p style="text-align:center;margin-top: 15px;">Stevens Tabangay</p><p style="text-align:center;margin-top: 15px;">Contact</p></div>
+  <div id="right"><p style="text-align:center;margin-top: 15px;">Jeff Ray Dobluis</p><p style="text-align:center;margin-top: 15px;">Contact</p></div>
+  <div id="center"><p style="text-align:center;margin-top: 15px;">Mike Mayol</p><p style="text-align:center;margin-top: 15px;">Contact</p></div>
+ </div>
+  
+ 
+  
+  </div>	
   <div class="bgimg-4">
   </div>
 	
